@@ -5,13 +5,13 @@ cd ../../
 PATH_CURRENT=$PWD
 PATH_DATA=${PATH_CURRENT}/data
 
-# used for busybox full history
-#PATH_BussyBox=${PATH_DATA}/busybox/samples
+# busybox full
+PATH_BussyBox=${PATH_DATA}/busybox/samples
 
-# used for busybox monthly snapshots
+# busybox monthly
 PATH_BussyBox_Monthly=${PATH_DATA}/busybox_monthlySnapshot/samples
 
-####### used for busyBox monthly
+####### busyBox monthly
 for version in ${PATH_BussyBox_Monthly}/*; do
 	for procedure in ${version}/*; do
 		cd ${procedure}
@@ -21,7 +21,7 @@ for version in ${PATH_BussyBox_Monthly}/*; do
 	done
 done
 
-####### used for busyBox currently
+####### busyBox full
 for version in ${PATH_BussyBox}/*; do
 	for procedure in ${version}/*; do
 		cd ${procedure}
