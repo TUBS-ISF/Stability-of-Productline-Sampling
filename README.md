@@ -63,5 +63,8 @@ The following describes how to use the script.
 4. Make *executeStabCalcHG.sh* executable
 5. Execute *executeStabCalcHG.sh* 
 
-## Close Up
+## Licensing
+The source code in this repository is licensed under the [GNU General Public License v3.0](https://github.com/TUBS-ISF/BCS-Case-Study/blob/master/LICENSE). The data files contained in this repository are licensed under the [CC-BY-4.0](https://github.com/TUBS-ISF/BCS-Case-Study/blob/master/cc-by-4.0.md). You are free to use, share, and adapt the data and source code in this repository as long as you give appropriate credit to the data owner.
+
+## Disclaimer
 If you need any help using the provided models you can reach out to via via mail: *t.pett@tu-braunschweig.de*
